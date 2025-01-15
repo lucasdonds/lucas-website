@@ -1,0 +1,144 @@
+/* Reset */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f0f0f0;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #121212;
+        color: #888888;
+    }
+	
+    h1 a {
+	color: #888888;
+    }
+    
+    nav ul li a {
+        color: #1e90ff;
+    }
+
+    footer p {
+        color: #888888;
+    }
+
+    main {
+        background-color: #1f1f1f;
+    }
+}
+*/
+
+
+#container {
+    width: 80%;
+    max-width: 400px;
+}
+
+/* Header */
+h1 {
+    font-size: 2rem;
+    margin-top: 1rem;    
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+    margin-bottom: 20px; 
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0073e6;
+}
+
+a:hover {
+    color: #000000
+}
+
+a.current {
+    display: none; 
+}
+
+/* Main Content */
+main {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+
+main p {
+    font-size: 1rem;
+    color: #444;
+    text-align: left;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #444;
+    text-align: right;
+}
+
+quote {
+    font-style: italic;
+    font-size: 1.125rem;
+    color: #444;
+    text-align: left;   
+}
+
+quote cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #444;
+    text-align: left;
+}
+
+/* Footer */
+footer p {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+* {
+    outline: 0px solid red;
+
+}
