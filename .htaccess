@@ -1,3 +1,6 @@
+# Set correct MIME type for HTML files
+AddType text/html .html
+
 # Enable the rewrite engine
 RewriteEngine On
 
