@@ -1,9 +1,16 @@
+# Enable the rewrite engine
 RewriteEngine On
+
+# If the requested file or directory doesn't exist
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
+
+# And if the requested file with .html exists
 RewriteCond %{REQUEST_FILENAME}.html -f
+
+# Rewrite the URL internally
 RewriteRule ^(.+)$ $1.html [L,QSA]
 
-# Remove .html extension from direct requests
+# Redirect direct .html requests to clean URLs
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /.*\.html\ HTTP/
 RewriteRule ^(.*)\.html$ /$1 [R=301,L] 
