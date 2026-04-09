@@ -108,6 +108,7 @@ blockquote {
     font-size: 1rem;
     color: #444;
     text-align: left;
+	margin-left: 0;
 }
 
 blockquote cite {
