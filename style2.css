@@ -120,7 +120,7 @@ blockquote cite {
 
 quote {
     font-style: italic;
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: #444;
     text-align: left;   
 }
@@ -128,7 +128,7 @@ quote {
 quote cite {
     display: block;
     margin-top: 10px;
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #444;
     text-align: left;
 }
